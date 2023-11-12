@@ -7,3 +7,32 @@ Divide and Conquer: Divide the problem into smaller sub-problems. Each sub-probl
 Dynamic Programming: Similar to Divide and conquer. Divide the problem into smaller sub-problems. Break it down into smaller but overlapping sub problems. Store the result and reuse it for the same sub-problems. This is called memoization and is a optimization technique that improves the time complexity of your algorithm. Ex: Fibonacci numbers and climbing staircase
 
 Backtracking: Generate all possible solutions. Check if the solution satisfies all the given contrains and only then you proceed with generating subsequent solutions. If thee constraints are not satisfied, backtrack and ago on a different path to find the solution. EX: N-Queens Problem
+
+
+// BIG O in Datastructure
+
+
+// Map, filter, concat, slice and spice
+
+
+// Insert /remove from end - O(1) -> Constant
+// Insert /remove from beginning - O(n)-> Linear
+// Access - O(1) -> Constant
+// Search - O(n) -> Linear
+// Push / Pop - O(1)-> Constant
+// shift/unshift/ concat/ Slice /Spice - O(n) -> Linear
+// forEach/map/filter/reduce -> O(n) -> Linear
+
+
+  // Object.key() .values() .entries()
+  
+  // BIG O for OBJECT
+  /** 
+  Insert - O(1) -> constant
+  Remove - O(1) -> constant
+  Access - O(1) -> constant
+  Search - O(n) -> linear
+  Object.keys() - O(n) -> linear
+  Object.values() - O(n) -> linear
+  Object.entries() - O(n) -> linear
+  */
